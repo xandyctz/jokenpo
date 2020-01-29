@@ -1,0 +1,29 @@
+.main-stage {
+    display: flex; /*Adicione a propriedade display com o valor flex para trabalharmos com o alinhamento dos componentes que estão dentro do container:*/
+    flex-direction: column; /*Use a propriedade flex-direction com o valor column para deixar os componentes do nosso container um abaixo do outro:*/
+    align-items: center; /*Centralize todos os componentes do container main-stage no sentido horizontal (eixo x) usando a propriedade align-items com o valor center:*/
+    justify-content: center; /*Para centralizar os componentes no sentido vertical utilize a propriedade justify-content com o valor center:*/
+    height: 80vh; /*Não tivemos alteração visual, usando a propriedade justify-content com o valor center porque o container main-stage não tem uma altura definida, portanto use a propriedade height com o valor 80vh:*/
+
+}
+
+.main-stage > .simple-title {
+    margin-bottom: var(--gap-smaller);
+}
+
+.main-stage > .simple-subtitle {
+    margin-bottom: var(--gap-big);
+}
+
+.main-stage > .primary-button {
+    width: 180px;
+    text-align: center;
+    height: 28px;
+    line-height: 28px; /*Para centralizar o texto do botão .primary-button no sentido vertical, utilize a propriedade line-height (altura da linha) e defina para ela o mesmo valor da altura (height) do componente:*/
+    margin-bottom: var(--gap-smaller);
+    font-size: 15px;
+}
+
+.main-stage > .simple-action {
+    font-size: 10px;
+}

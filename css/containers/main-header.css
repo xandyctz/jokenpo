@@ -2,7 +2,7 @@
     display: flex; /*para deixar o menu ao lado do logo:*/
     align-items: center; /*para alinhar o logo e a navegação ao centro:*/
     justify-content: space-between; /*para mover o logo para esquerda e o menu para a direita:*/
-
+    padding: var(--gap-smaller) var(--gap-smaller) 0;
 }
 
 .main-header > .main-logo {

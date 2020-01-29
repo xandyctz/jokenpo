@@ -4,6 +4,11 @@
     color: var(--color-primary);
     border-radius: 4px; /*cantos arredondados*/
     font-family: 'Comfortaa', sans-serif;
-    font-weight: bold;
+    
+}
 
+.primary-button.-dark {
+    color: var(--color-base);
+    font-family: 'Bitter', serif;
+    font-weight: bold;
 }
