@@ -1,0 +1,14 @@
+.main-menu > .simple-action {
+    margin-right: var(--gap-small);
+    font-size: 12px;
+}
+
+.main-menu > .primary-button {
+    display: inline-block; /*Defina a propriedade display com o valor inline-block para que as propriedades width e height do elemento funcionem e ele continue ao lado dos demais elementos do container main-menu:*/
+    font-size: 12px;
+    width: 60px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px; /*Para o texto do componente primary-button também ficar centralizado no eixo vertical deixaremos a altura da linha com a mesma altura da caixa do componente. Use a propriedade line-height com o valor de 20px que é o mesmo valor que definimos na propriedade height:*/
+    
+}
