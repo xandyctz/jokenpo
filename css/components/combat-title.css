@@ -1,0 +1,6 @@
+.combat-title {
+    color: var(--color-base);
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    font-size: 35pt;
+}

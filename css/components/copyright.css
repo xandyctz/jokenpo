@@ -1,0 +1,9 @@
+.copyright {
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: var(--color-second);
+    padding-top: var(--gap-smaller);
+    font-family: "Helvetica", sans-serif;
+    
+}

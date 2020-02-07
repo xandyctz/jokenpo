@@ -1,0 +1,19 @@
+.social {
+    display: inline-block;
+    width: 20px;
+    
+
+}
+
+.main-footer > a {
+    margin: 10px 25px 15px 0px;
+}
+
+
+
+
+.main-footer{
+	border-bottom: 0.5px dashed white;
+	margin-left: var(--gap-medium);
+    margin-right: var(--gap-medium);
+}

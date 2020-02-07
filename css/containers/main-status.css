@@ -1,0 +1,7 @@
+.main-status{
+   display: flex; /*Adicione a propriedade display com o valor flex para trabalharmos com o alinhamento dos componentes que estão dentro do container:*/
+    flex-direction: column; /*Use a propriedade flex-direction com o valor column para deixar os componentes do nosso container um abaixo do outro:*/
+    align-items: center; /*Centralize todos os componentes do container main-stage no sentido horizontal (eixo x) usando a propriedade align-items com o valor center:*/
+    justify-content: center; /*Para centralizar os componentes no sentido vertical utilize a propriedade justify-content com o valor center:*/
+    height: 20vh;
+}

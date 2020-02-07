@@ -3,8 +3,11 @@
     flex-direction: column; /*Use a propriedade flex-direction com o valor column para deixar os componentes do nosso container um abaixo do outro:*/
     align-items: center; /*Centralize todos os componentes do container main-stage no sentido horizontal (eixo x) usando a propriedade align-items com o valor center:*/
     justify-content: center; /*Para centralizar os componentes no sentido vertical utilize a propriedade justify-content com o valor center:*/
-    height: 80vh; /*Não tivemos alteração visual, usando a propriedade justify-content com o valor center porque o container main-stage não tem uma altura definida, portanto use a propriedade height com o valor 80vh:*/
-
+    height: 80vh;
+    background-image: url('../../img/404.svg');/*Não tivemos alteração visual, usando a propriedade justify-content com o valor center porque o container main-stage não tem uma altura definida, portanto use a propriedade height com o valor 80vh:*/
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .main-stage > .simple-title {

@@ -1,0 +1,12 @@
+.main-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 465px;
+  margin-bottom: 50px;
+}
+
+.main-options > a {
+  margin: 25px 16px 0px 0px;
+}

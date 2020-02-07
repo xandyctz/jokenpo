@@ -25,12 +25,18 @@
     <link rel="stylesheet" href="../css/components/simple-subtitle.css" />
     <link rel="stylesheet" href="../css/components/social.css" />
     <link rel="stylesheet" href="../css/components/copyright.css" />
+    <link rel="stylesheet" href="../css/components/combat-subtitle.css" />
+    <link rel="stylesheet" href="../css/components/combat-title.css" />
+    <link rel="stylesheet" href="../css/components/simple-options.css" />
 
     <!--containers-->
     <link rel="stylesheet" href="../css/containers/main-header.css" />
     <link rel="stylesheet" href="../css/containers/main-menu.css" />
-    <link rel="stylesheet" href="../css/containers/main-stage.css" />
+    <link rel="stylesheet" href="../css/containers/main-status.css" />
     <link rel="stylesheet" href="../css/containers/main-footer.css" />
+    <link rel="stylesheet" href="../css/containers/main-combat.css" />
+    <link rel="stylesheet" href="../css/containers/main-vs.css" />
+    <link rel="stylesheet" href="../css/containers/main-options.css" />
   </head>
   <body>
     <header class="main-header">
@@ -43,27 +49,41 @@
       </nav>
     </header>
 
-    <section class="main-stage">
-      <h1 class="simple-title">Seems like we were not ready for that click</h1>
-      <h2 class="simple-subtitle">Well, let’s at least play a game?</h2>
-      <a class="primary-button -dark" href="">Play</a>
-      <a class="simple-action -light" href="">Go Home</a>
+    <section class="main-status">
+      <h1 class="combat-title">Round 1</h1>
+      <h2 class="combat-subtitle">0 - 0</h2>
+    </section>
+
+    <section class="main-combat">
+      <h1 class="you">You</h1>
+      <h1 class="cpu">Click.ly AI</h1>
+    </section>
+
+    <section class="main-vs">
+      <img class="esquerta-img" src="../img/rockl.svg" />
+      <p class="vs">VS</p>
+      <img class="direita-img" src="../img/rock AI.png" />
+    </section>
+
+    <section class="main-options">
+      <a class="rock" href="#"
+        ><img class="simple-options" src="../img/Rock.png"
+      /></a>
+      <a href="#"><img class="simple-options" src="../img/Paper.png"/></a>
+      <a href="#"><img class="simple-options" src="../img/Scissors.png"/></a>
     </section>
 
     <footer class="main-footer">
-      <a class="social-link" href="#"
-        ><img class="social" src="../img/twitter.svg" alt=""
+      <a href="#"
+        ><img class="social -muda" src="../img/twitter.svg" alt=""
       /></a>
-      <a class="social-link" href="#"
-        ><img class="social" src="../img/facebook.svg" alt=""
-      /></a>
-      <a class="social-link" href="#"
-        ><img class="social" src="../img/instagram.svg" alt=""
-      /></a>
+      <a href="#"><img class="social" src="../img/facebook.svg" alt=""/></a>
+      <a href="#"><img class="social" src="../img/instagram.svg" alt=""/></a>
       <p class="copyright">
         Business 2019. All rights reserved. Company registered in US No.
         123456789.
       </p>
     </footer>
+    <script src="../js/option-rock.js"></script>
   </body>
 </html>
