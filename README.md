@@ -15,5 +15,8 @@
 </h1>
 <h1 align="center">
   <img alt="Layout mobile" src="./img/layout-combat.png" />
+
+---
+
   <img alt="Layout mobile" src="./img/layout-404.png" />
 </h1>
