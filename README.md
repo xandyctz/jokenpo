@@ -7,7 +7,7 @@
 ---
 
 <blockquote align="center">
-	Website created for the collabcode challenge
+	Site criado para o desafio da CollabCode
 </blockquote>
 
 <h1 align="center">
